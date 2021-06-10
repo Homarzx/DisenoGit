@@ -18,10 +18,10 @@ import java.util.List;
  */
 public class GoldModel extends GameModel {
 	public enum Directions {
-		EAST(3, 0),
-		WEST(-3, 0),
-		NORTH(0, -3),
-		SOUTH(0, 3),
+		EAST(2, 0),
+		WEST(-2, 0),
+		NORTH(0, -2),
+		SOUTH(0, 2),
 		NONE(0, 0);
 
 		private final int xDelta;
